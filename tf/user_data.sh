@@ -13,12 +13,12 @@ sudo rm -rf /var/www/html/*
 
 # Clonar repositorio
 cd /var/www/html
-sudo git clone https://github.com/Inereaa/TFparte1.git
-sudo mv TFparte1/index.html /var/www/html/
-sudo mv TFparte1/index.css /var/www/html/
-sudo mv TFparte1/index.js /var/www/html/
+sudo git clone https://github.com/Inereaa/TFparte2.git
+sudo mv TFparte2/index.html /var/www/html/
+sudo mv TFparte2/index.css /var/www/html/
+sudo mv TFparte2/index.js /var/www/html/
 
-sudo rm -rf TFparte1/
+sudo rm -rf TFparte2/
 
 # Ajustar permisos
 sudo chown -R www-data:www-data /var/www/html
