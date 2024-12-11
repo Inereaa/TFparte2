@@ -16,6 +16,7 @@ cd /var/www/html
 sudo git clone https://github.com/Inereaa/TFparte1.git
 sudo mv TFparte1/index.html /var/www/html/
 sudo mv TFparte1/index.css /var/www/html/
+sudo mv TFparte1/index.js /var/www/html/
 
 sudo rm -rf TFparte1/
 
