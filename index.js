@@ -1,4 +1,11 @@
-// Agregar animación de entrada al desplazarse
+
+/**
+ * Agregar animación de entrada al desplazarse
+ * 
+ * @param {Array} productList - Coge todos los .product. 
+ * @param {Function} observer - Función que coge las entradas. 
+ * @returns {Boolean} - Si es cierto se ejecutará. 
+ */
 const productList = document.querySelectorAll('.product');
 
 const observer = new IntersectionObserver((entries) => {
@@ -8,6 +15,4 @@ const observer = new IntersectionObserver((entries) => {
             entry.target.classList.add('visible');
         }
     });
-}, {
-   
-
+})
